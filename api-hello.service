@@ -1,0 +1,9 @@
+[Unit]
+Description=API teste
+
+[Service]
+ExecStart=/usr/bin/java -jar /home/vagrant/api/HelloWorld/HelloWorld-0.0.1-SNAPSHOT.jar
+User=root
+
+[Install]
+WantedBy=multi-user.target
